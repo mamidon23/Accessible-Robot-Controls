@@ -54,11 +54,16 @@ order to accept controller input again.
 In the event that the controller refuses to connect, try resetting the ESP 
 or reflashing the code. 
 
+To build this project, clone the latest Bluepad32 project from the Gitlab link 
+below and replace the sketch.cpp file found here with the one provided in 
+Bluepad. Then simply follow the Bluepad32 instructions on installing the 
+ESP-IDF to build and flash the project to the ESP board. 
 
 
-Bluepad32 project: https://github.com/opentrack/opentrack
 
-Opentrack project: https://gitlab.com/ricardoquesada/esp-idf-arduino-bluepad32-template
+Opentrack project: https://github.com/opentrack/opentrack
+
+Bluepad32 project: https://gitlab.com/ricardoquesada/esp-idf-arduino-bluepad32-template
 
 MaxArm product page: https://www.hiwonder.com/products/maxarm?variant=40008714092631
 
