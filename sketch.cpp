@@ -679,8 +679,8 @@ HardwareSerial HardwareSerial(2);
 LobotSerialServoControl BusServo(HardwareSerial,receiveEnablePin,transmitEnablePin);
 
 
-const char* ssid = "KULABS"; //network name goes here
-const char* password = "WHX434][{c"; //password goes here
+const char* ssid = ""; //network name goes here
+const char* password = ""; //password goes here
 bool udpFlag = false;
 
 //hw_timer_t * timer = NULL;
